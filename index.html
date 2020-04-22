@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple to do list app</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div align="center"><h1> To Do List App</h1>
+    <form onsubmit="addTask(); return false;" required autocomplete="off">
+    <input type="text" id="text" placeholder="Enter a task eg: meet a friend" required>
+        <input type="submit" value="ADD" id="add">
+        <table>
+       <tr>
+        <th>Tasks</th>
+                   <th >del</th>
+
+            </tr>
+    </table>
+
+    </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
